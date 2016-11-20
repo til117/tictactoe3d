@@ -1,5 +1,6 @@
 # tictactoe3d
 The same as the tictactoe, but a generalized version. This one instead of a 4x4 board, it plays in a 3D hypercube (A.I. course KTH project).
+
 This project is also written in Java instead of C++.
 
 # 3D Tic-Tac-Toe

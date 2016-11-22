@@ -5,17 +5,17 @@ This project is also written in Java instead of C++.
 
 # 3D Tic-Tac-Toe
 
-In this assignment we consider a special case of 3-dimensional generalization of Tic-Tac-Toe game. The rules are simple. There is a 3-dimensional hypercube H, consisting of 43 cells. Two players, X and Y, take turns marking blank cells in H. The first player to mark 4 cells along a row wins. Here by a row we mean any 4 cells, whose centres lie along a straight line in H. Winning rows lie along the 48 orthogonal rows (those which are parallel to one of the edges of the cube), the 24 diagonal rows, or the 4 main diagonals of the cube, making 76 winning rows in total. Player X always starts the game.
+In this project we consider a special case of 3-dimensional generalization of Tic-Tac-Toe game. The rules are simple. There is a 3-dimensional hypercube H, consisting of 43 cells. Two players, X and Y, take turns marking blank cells in H. The first player to mark 4 cells along a row wins. Here by a row we mean any 4 cells, whose centres lie along a straight line in H. Winning rows lie along the 48 orthogonal rows (those which are parallel to one of the edges of the cube), the 24 diagonal rows, or the 4 main diagonals of the cube, making 76 winning rows in total. Player X always starts the game.
 
-Our goal is to find the best possible move for player X given a particular state of the game.
+The goal of the agent (player class) is to find the best possible move for player X given a particular state of the game.
 
 # Input
 
-You will be given a game state which consists of a board, whose turn it is, and what the last move was.
+A game state which consists of a board, whose turn it is, and what the last move was.
 
 #Output
 
-Your agent program should output the next game state in the same format. This is taken care of for you by the skeleton.
+The agent program outputs the next game state in the same format. This is taken care of by the skeleton.
 
 # To play in a single terminal
 
